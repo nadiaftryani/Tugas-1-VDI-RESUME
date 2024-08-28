@@ -13,8 +13,8 @@ Artikel berjudul "Making Data Visualization More Efficient and Effective: A Surv
 ### 1.1 Spesifikasi Visualisasi
 
 - **Bahasa Spesifikasi Visualisasi:**
-  - **Bahasa Level Rendah:** Memerlukan pengguna untuk menentukan semua detail pemetaan.
-  - **Bahasa Level Tinggi:** Menyederhanakan proses dengan menyembunyikan detail teknis.
+  - Bahasa Level Rendah: Memerlukan pengguna untuk menentukan semua detail pemetaan.
+  - Bahasa Level Tinggi: Menyederhanakan proses dengan menyembunyikan detail teknis.
 - tujuan unguk membantu pengguna menentukan apa yang ingin divisualisasikan dengan cara yang lebih terstruktur.
 
 ### 1.2 Pendekatan Efisien untuk Visualisasi Data
