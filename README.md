@@ -3,8 +3,7 @@
 # Teknik Visualisasi Data
 
 ## Ikhtisar
-
-Dokumen ini memberikan ikhtisar berbagai teknik untuk meningkatkan efisiensi dan efektivitas visualisasi data. Dokumen ini merangkum artikel **"Making Data Visualization More Efficient and Effective: A Survey"** dan menawarkan contoh praktis menggunakan Altair/Vega-Lite untuk membuat visualisasi yang disesuaikan.
+Dokumen ini merangkum artikel **"Making Data Visualization More Efficient and Effective: A Survey"** dan menawarkan contoh praktis menggunakan Altair/Vega-Lite untuk membuat visualisasi yang disesuaikan.
 
 ## 1. Ringkasan Artikel
 
