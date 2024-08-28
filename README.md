@@ -15,7 +15,7 @@ Artikel berjudul "Making Data Visualization More Efficient and Effective: A Surv
 - **Bahasa Spesifikasi Visualisasi:**
   - **Bahasa Level Rendah:** Memerlukan pengguna untuk menentukan semua detail pemetaan.
   - **Bahasa Level Tinggi:** Menyederhanakan proses dengan menyembunyikan detail teknis.
-- **Tujuan:** Membantu pengguna menentukan apa yang ingin divisualisasikan dengan cara yang lebih terstruktur.
+- tujuan unguk membantu pengguna menentukan apa yang ingin divisualisasikan dengan cara yang lebih terstruktur.
 
 ### 1.2 Pendekatan Efisien untuk Visualisasi Data
 
@@ -23,13 +23,13 @@ Artikel ini membahas berbagai teknik untuk membuat proses visualisasi lebih efis
   - Menerjemahkan query visualisasi menjadi query SQL.
   - Menggunakan penyimpanan berbasis kolom untuk meningkatkan kinerja.
   - Menerapkan teknik prefetching dan prediksi untuk mempercepat eksplorasi visualisasi.
-- **Tujuan:** Membuat proses visualisasi lebih efisien dan cepat.
+- Tujuan untuk Membuat proses visualisasi lebih efisien dan cepat.
 
 ### 1.3 Rekomendasi Visualisasi
 
 - **Sistem Rekomendasi:**
   - Memberikan saran visualisasi yang relevan berdasarkan spesifikasi yang tidak lengkap atau perilaku dan preferensi pengguna.
-- **Tujuan:** Membantu pengguna menentukan visualisasi yang tepat.
+- Tujuannya untuk Membantu pengguna menentukan visualisasi yang tepat.
 
 ### Tinjauan Literatur
 
@@ -41,9 +41,9 @@ Artikel ini juga mencakup tinjauan terhadap literatur yang ada, menyoroti teknik
 ### 2.1 Menyesuaikan Visualisasi
 Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisasi. Namun, Anda dapat menyesuaikan tampilan visualisasi dengan:
 
-- **Menentukan Judul Sumbu:** Menggunakan atribut `axis` dari kelas channel.
-- **Mengubah Properti Skala:** Menggunakan atribut `scale`.
-- **Menentukan Warna Tanda:** Mengatur parameter `color` pada metode `Chart.mark_*` dengan string warna CSS yang valid.
+- Menentukan Judul Sumbu: Menggunakan atribut axis dari kelas channel.
+- Mengubah Properti Skala: Menggunakan atribut scale.
+- Menentukan Warna Tanda: Mengatur parameter color pada metode Chart.mark_* dengan string warna CSS yang valid.
 
 - **Contoh Kode:**
   ```python
