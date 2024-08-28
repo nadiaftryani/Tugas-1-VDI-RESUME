@@ -27,8 +27,7 @@ Artikel ini membahas berbagai teknik untuk membuat proses visualisasi lebih efis
 ### 1.3 Rekomendasi Visualisasi
 
 - **Sistem Rekomendasi:**
-  - Memberikan saran visualisasi yang relevan berdasarkan spesifikasi yang tidak lengkap atau perilaku dan preferensi pengguna.
-- Tujuannya untuk Membantu pengguna menentukan visualisasi yang tepat.
+  - Memberikan saran visualisasi yang relevan berdasarkan spesifikasi yang tidak lengkap atau perilaku dan preferensi pengguna dImana untuk mmbantu pengguna menentukan visualisasi yang tepat.
 
 ### Tinjauan Literatur
 
