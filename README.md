@@ -71,7 +71,7 @@ Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisa
   import altair as alt
 
   # Sample DataFrame
-  cars = pd.DataFrame({'Year': [2000, 2001, 2002, 2003],'Miles_per_Gallon': [30, 32, 34, 33]})
+  cars = pd.DataFrame({'Year': [1970, 1972, 1974, 1976, 1978, 1980, 1982],'Miles_per_Gallon': [5, 10, 15, 20, 25, 30, 35]})
 
   # Line Chart
   line_chart = alt.Chart(cars).mark_line().encode(alt.X('Year'), alt.Y('average(Miles_per_Gallon)'))
