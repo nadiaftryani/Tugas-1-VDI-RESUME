@@ -45,19 +45,9 @@ Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisa
 
 - **Contoh Kode:**
   ```python
-  import altair as alt
-  import pandas as pd
-
-  # DataFrame Contoh
-  df = pd.DataFrame({
-      'precip': [1, 2, 3, 4],
-      'city': ['A', 'B', 'C', 'D']
-  })
-
-  # Grafik yang Disesuaikan
-  chart = alt.Chart(df).mark_point(color='firebrick').encode(
-    alt.X('precip', scale=alt.Scale(type='log'), axis=alt.Axis(title='Nilai Log-Scaled')),
-    alt.Y('city', axis=alt.Axis(title='Kategori')),
+  alt.Chart(df).mark_point(color='firebrick').encode(
+  alt.X('precip', scale=alt.Scale(type='log'), axis=alt.Axis(title='Log-Scaled Values')),
+  alt.Y('city', axis=alt.Axis(title='Category')),
   )
 
 #### Hasil visualisasinya:
@@ -85,4 +75,4 @@ Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisa
 Untuk menambahkan plot ini, kita mungkin ingin menambahkan tanda lingkaran untuk setiap titik data yang dirata-ratakan. (Tanda lingkaran hanyalah singkatan yang nyaman untuk tanda titik yang menggunakan lingkaran terisi.)
 
 #### Hasil visualisasinya:
-![Visualisasi Data 2](https://github.com/nadiaftryani/Tugas-1-VDI-RESUME/blob/main/visualization2.png)
+![Visualisasi Data 3](https://github.com/nadiaftryani/Tugas-1-VDI-RESUME/blob/main/visualization3.png)
