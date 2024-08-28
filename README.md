@@ -39,6 +39,11 @@ Artikel ini juga mencakup tinjauan terhadap literatur yang ada, menyoroti teknik
 ## Menyesuaikan Visualisasi dengan Altair/Vega-Lite
 
 ### 2.1 Menyesuaikan Visualisasi
+Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisasi. Namun, Anda dapat menyesuaikan tampilan visualisasi dengan:
+
+- **Menentukan Judul Sumbu:** Menggunakan atribut `axis` dari kelas channel.
+- **Mengubah Properti Skala:** Menggunakan atribut `scale`.
+- **Menentukan Warna Tanda:** Mengatur parameter `color` pada metode `Chart.mark_*` dengan string warna CSS yang valid.
 
 - **Contoh Kode:**
   ```python
@@ -57,6 +62,8 @@ Artikel ini juga mencakup tinjauan terhadap literatur yang ada, menyoroti teknik
     alt.Y('city', axis=alt.Axis(title='Kategori')),
   )
 
+#### Hasil visualisasinya:
+![Visualisasi Data](https://github.com/nadiaftryani/Tugas-1-VDI-RESUME/blob/main/visualization.png)
 
 
 ### 2.2. Multiple Views
@@ -76,3 +83,8 @@ Artikel ini juga mencakup tinjauan terhadap literatur yang ada, menyoroti teknik
 
   # Combined View
   combined_chart = line_chart + circle_mark
+
+Untuk menambahkan plot ini, kita mungkin ingin menambahkan tanda lingkaran untuk setiap titik data yang dirata-ratakan. (Tanda lingkaran hanyalah singkatan yang nyaman untuk tanda titik yang menggunakan lingkaran terisi.)
+
+#### Hasil visualisasinya:
+![Visualisasi Data 2](https://github.com/nadiaftryani/Tugas-1-VDI-RESUME/blob/main/visualization2.png)
