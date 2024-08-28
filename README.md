@@ -56,7 +56,7 @@ Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisa
 
 ### 2.2. Multiple Views
 
-- **Example Code:**
+- **contoh kode:**
   ```python
   import altair as alt
 
