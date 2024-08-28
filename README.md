@@ -37,11 +37,11 @@ Artikel ini juga mencakup tinjauan terhadap literatur yang ada, menyoroti teknik
 ## Menyesuaikan Visualisasi dengan Altair/Vega-Lite
 
 ### 2.1 Menyesuaikan Visualisasi
-Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisasi. Namun, Anda dapat menyesuaikan tampilan visualisasi dengan:
+Secara default, Altair/Vega-Lite otomatis menetapkan beberapa properti visualisasi. Namun, kita bisa dapat menyesuaikan tampilan visualisasi dengan:
 
-- Menentukan Judul Sumbu: Menggunakan atribut axis dari kelas channel.
-- Mengubah Properti Skala: Menggunakan atribut scale.
-- Menentukan Warna Tanda: Mengatur parameter color pada metode Chart.mark_* dengan string warna CSS yang valid.
+- Menentukan Judul Sumbu menggunakan atribut axis dari kelas channel.
+- Mengubah Properti Skala menggunakan atribut scale.
+- Menentukan Warna Tanda mengatur parameter color pada metode Chart.mark_* dengan string warna CSS yang valid.
 
 - **Contoh Kode:**
   ```python
